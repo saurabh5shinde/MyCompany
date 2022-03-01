@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Product List</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Details</display-name>
+    <servlet-name>Details</servlet-name>
+    <servlet-class>com.simplilearn.productlist.Details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Details</servlet-name>
+    <url-pattern>/Details</url-pattern>
+  </servlet-mapping>
+</web-app>
